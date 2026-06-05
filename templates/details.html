@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Details
+    </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/details.css' %}">
+   
+</head>
+
+<body>
+
+    <div class="app">
+
+        
+        <div class="header">
+            <div class="navbar">
+                <div class="brand">
+                    <h3>Rehlty</h3>
+                    <img src="imagee/location.webp" alt="">
+                </div>
+
+                <div class="header-content">
+                    <div class="header-btn">
+                        <button>EN</button>
+                        <span>|</span>
+                        <button>AR</button>
+                    </div>
+                    <a href="#">Support</a>
+                    <a href="#">My Trips</a>
+
+                    <a href="{% url 'signin'%}"><button
+                            class="header-login">Login</button></a>
+
+                </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <p>The St. Regis Cairo</p>
+
+
+
+        <div class="price">
+            <div class="pri">
+                <span class="EGP">EGP</span>
+                <span class="pr">32,871</span>
+            </div>
+            <a class="book" href="{% url 'book'%}">Book Now</a>
+
+
+        </div>
+
+    </div>
+    <div class="location">
+
+
+        <div class="icon"><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+        </div>
+
+        <p>Corniche el Nil, Downtown Cairo, Cairo, Egypt 11221 <a href="#">see location</a></p>
+
+    </div>
+
+    <div class="image">
+
+        <table>
+                <tr>
+                
+                    <td><img src= "{%static 'imagee/st1.jpg'%}" alt=""></td>
+                        
+                        
+                       
+                    <td> <img src="imagee/st3.jpg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td><img src="imagee/st4.avif" alt=""></td>
+                    <td><img src="imagee/st6.avif" img alt=""></td>
+
+                </tr>
+            
+
+        </table>
+
+    </div>
+
+    <h4 class="details">
+        <a class="active" href="#">overview </a>
+        <a href="#">Rooms </a>
+        <a href="#">location</a>
+        <a href="#">policies</a>
+    </h4>
+    <div class="border"></div>
+
+
+    </div>
+    <div class="cont">
+        <div>
+            <p>Cairo’s vibrant energy comes alive at The St. Regis Cairo, where luxury meets family-friendly comfort.
+                Treat yourself to a rejuvenating spa treatment, enjoy Italian cuisine at one of the 5 restaurants,
+                or unwind in the garden with a good book from the library.</p>
+        </div>
+    </div>
+    </div>
+    <div class="rate">
+        <ul>
+            <li class="feedback">9.1</li>
+            <li class="ratee">Excellent</li>
+            <li class="reviews">2901 reviews</li>
+            <li>
+                <a href="#">view reviews ></a>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <div class="about">
+
+        <div class="popular">
+            <h2 class="pop"> popular amenities</h2>
+        </div>
+
+
+        <div class="amenities">
+
+            <img src="imagee/spa.avif" alt="spa">
+
+            <img src="imagee/pool.jpg" alt="pool">
+
+
+            <img src="imagee/resturant.jpg" alt="restaurant">
+
+
+        </div>
+        <div class="cott">
+            <h4 class="spa">spa </h4>
+            </h4>
+            <h4 class="pool">pool</h4>
+            <h4 class="restaurant">restaurant</h4>
+        </div>
+
+
+
+
+
+
+        <div class="somedetails">
+            <div class="spadetails">
+                <h5> <i class="fa-solid fa-martini-glass"></i> Bar</h5>
+                <h5> <i class="fa-solid fa-dumbbell"></i> Gym</h5>
+
+            </div>
+
+            <div class="pooldetails">
+                <h5> <i class="fa-solid fa-door-open"></i> Connecting rooms available</h5>
+                <h5> <i class="fa-solid fa-fan"></i> Air conditioning</h5>
+
+
+            </div>
+            <div class="restaurantdetails">
+                <h5><i class="fa-solid fa-square-parking"></i> Parking available</h5>
+
+
+                <h5><i class="fa-solid fa-wifi"></i> Free WiFi</h5>
+
+            </div>
+        </div>
+        <br>
+
+        <div class="rooms">
+            <h2>Room amenities</h2>
+            <div class="home">
+                <h3>Home comforth</h3>
+                <p>Climate-controlled air conditioning and heating
+                </p>
+
+
+                <p>Minibar</p>
+
+
+                <p>Espresso maker</p>
+
+
+                <p>Electric kettle</p>
+
+
+                <p>Bathrobes and slippers</p>
+
+
+                <p>Children's slippers</p>
+
+
+                <p>Iron/ironing board</p>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    
+<div class="detailss">
+    <div class="header-details">details</div>
+    <div class="body-details">
+        <div class="upper-part">
+        <div class="left-part">
+            <div class="description">
+                On the banks of the famed Nile River- the city of Cairo—The Triumphant in Arabic—is the center of Egyptian culture and commerce. Here- civilizations have met for centuries- and Cairo today offers a rich diversity of contrasts. Modern architecture and ancient mosques. Urban sparkle and restful natural beauty. Business and leisure. And there*s no better way to experience the majesty of the city and its history than through the gracious hospitality of Fairmont Nile City- Cairo. 
+
+Like the city itself- Fairmont Nile City offers a delightful series of contrasts. Equipped with the most advanced design and technology to serve the needs of the discerning traveler- the hotel is also intimately attuned to its surroundings. With sweeping panoramas of the Nile River- and views of the Pyramids in the distance- Cairo*s natural beauty and ancient history are always in sight. Added to this panoply of wonders are special features such as culinary adventures at the city*s finest restaurants- a chance to bask in the sunshine or under the stars at our unique rooftop poolside sky bar- and truly indulgent- full-service treatments at our Willow Stream Spa—all ensuring that each and every visit to Fairmont Nile City- Cairo is certain to be an experience that is memorable and utterly magnificent.
+            </div>
+        </div>
+        <div class="right-part">
+<div class="address">
+    <div class="address-head">
+        <div class="address-title">Address</div>
+    </div>
+    <p>Nile City Tower - 2005 B, Nile Corniche, Cairo, Egypt 2466</p>
+</div>
+<div class="contact">
+<div class="contact-head">
+    <div class="contact-title">contact</div>
+    <p>20224619494</p>
+</div>
+</div>
+<div class="check-in-time">
+    <div class="check-in-time-head">
+        <div class="check-in-time-title">check-in-time</div>
+        <p>03:00 PM</p>
+</div>
+<div class="check-out-time"></div>
+    <div class="check-out-time-head">
+        <div class="check-out-time-title">check-out-time</div>
+        <p>12:00 PM</p>
+</div>
+   </div>
+    </div>
+   
+    </div>
+  
+</div>
+</div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/b898ef8082.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

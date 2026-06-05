@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>book</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/book.css' %}" />
+</head>
+
+<body>
+    <section class="container">
+        <header>Book Form</header>
+        <form  method="post" class="form">
+            {% csrf_token %}
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" name="fullname" placeholder="Enter full name" required />
+            </div>
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" name="email" placeholder="Enter email address" required />
+            </div>
+            <div class="input-box">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone_number" placeholder="Enter phone number" required oninput="this.value = this.value.replace(/[^0-9]/g,'')"  />
+            </div>
+            <div class="input-box">
+                <label>Check in</label>
+                <input type="date" name="checkin" required />
+                <label>Check out</label>
+                <input type="date" name="checkout" required />
+            </div>
+            <div class="input-box address">
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>your Country</option>
+                            <option>Egypt</option>
+                            <option>KSA</option>
+                            <option>UAE</option>
+                            <option>Qatar</option>
+                        </select>
+                    </div>
+                    <input type="number" id="rooms" name="number_of_rooms" placeholder="Number of rooms" required min="1" value="1" />
+                </div>
+                <div class="input-box">
+                    <label>Total price:</label>
+                    <p id="price-display">1000 EGB</p>
+                </div>
+                
+                
+                <script>
+                    const roomInput = document.getElementById("rooms");
+                    const priceDisplay = document.getElementById("price-display");
+                    const pricePerRoom = 1000;
+                
+                    function updatePrice() {
+                        let rooms = parseInt(roomInput.value) || 1;
+                        let total = rooms * pricePerRoom;
+                        priceDisplay.textContent = total + "EGB";
+                    }
+                
+                    roomInput.addEventListener("input", updatePrice);
+                    updatePrice(); 
+                </script>
+
+
+
+
+                <div class="column">
+                    <input type="number" name="number_of_individuals" placeholder="number of individuals" required />
+                </div>
+            </div>
+            <button type="submit" > <a href="{% url 'payment'%}">Book now</a></button>
+        </form>
+        
+    </section>
+</body>
+
+</html>

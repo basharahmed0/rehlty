@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Best Hotel Booking Deals & Discounts, Offers For Hotels & Cheap Rates | Eg.rehlty.com </title>
+
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    
+
+
+
+</head>
+
+<body>
+{% include 'parts/header.html' %}
+
+  {% block home %}
+  {% endblock %}
+
+  <footer>
+    {% include 'parts/footer.html' %}
+  </footer>
+
+  </body>

@@ -1,0 +1,546 @@
+body {
+
+    margin: 0;
+    overflow: auto;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+  }
+  
+  .app {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    min-height: 100%;
+  
+  }
+  
+  .header {
+    height: 544px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 20%;
+    background-image: url(hero-image_1.webp);
+    background-size: cover;
+  
+  }
+  
+  .part1 {
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    padding: 0 32px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 72px;
+    padding: 0 32px;
+    color: #1d1d1d;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2);
+    position: fixed;
+    max-width: 1134px;
+  }
+  
+  .navbar .logo-logo {
+    background-image: url(https://assets.wego.com/image/sprite/c_pad,f_auto,q_auto:best,h_80,w_200/v1642649139/roxana-wego-logo);
+    background-repeat: no-repeat;
+    background-size: 100px 81px;
+    display: block;
+    height: 40px;
+    width: 100px;
+  }
+  
+  .header-content {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .header-btn {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 16PX;
+  }
+  
+  .header-btn button {
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  
+  
+  }
+  
+  .header a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1d1d1d;
+    margin: 0;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  
+  
+  }
+  
+  .header-login {
+    border-radius: 100px;
+    border-width: 1px;
+    height: 32px;
+    padding: 9px 16px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+  
+  }
+  
+  .card {
+    display: flex;
+    color: #1d1d1d;
+    flex-direction: column;
+    padding: 0 48px 48px;
+    margin-top: 90px;
+    width: 1134px;
+    width: 100%;
+    margin-right: 10px;
+  
+  
+  }
+  
+  .uper-card button {
+    background-color: #fff;
+    border: none;
+    color: #1d1d1d;
+    background-color: #fff;
+    width: 100px;
+    height: 50px;
+    border-radius: 0 8px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+  
+    right: 0px;
+  
+  
+  }
+  
+  .card-conent {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 100%;
+    max-width: 60rem;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 0px 8px 8px 8px;
+  
+  
+  }
+  
+  .card p {
+    height: 16px;
+    line-height: 24px;
+  }
+  
+  .card-choose {
+    display: flex;
+    gap: 16px 8px;
+    margin-top: 16px;
+    width: 100%;
+  
+  
+  }
+  
+  .card-info {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card-info input {
+    height: 30px;
+    display: flex;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+    padding: 30px 40px 14px 16px;
+    outline: none;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .card-info label {
+    color: #767676;
+    transform-origin: top left;
+    left: 10px;
+    top: 10px;
+    pointer-events: none;
+    position: absolute;
+  
+  }
+  
+  
+  .card-serch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  
+  
+  }
+  
+  .left-ceck {
+    display: flex;
+    gap: 0 8px;
+  
+  }
+  
+  .left-ceck input {
+    padding: .0625rem;
+    width: var(--checkbox-size, 1.25rem);
+  }
+  
+  .right-search button {
+    color: #fff;
+    background-color: #44b50c;
+    align-items: center;
+    outline: none;
+    padding: 0 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    left: 200px;
+  
+  
+  }
+  
+  .card-last-part {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    padding: 0 16px;
+    height: 56px;
+    border-radius: 0 0 8px 8px;
+    margin: 24px -24px -24px;
+  }
+  
+  .card-last-part p {
+    margin: 0;
+  }
+  
+  .body-part {
+    display: flex;
+    align-items: center;
+    padding: 0 32px 48px;
+    flex-direction: column;
+  }
+  
+  .first-panar {
+    margin-top: 48px;
+    max-width: 1136px;
+    width: 100%;
+  }
+  
+  .header-first-panar {
+    font-size: 24px;
+    font-weight: 600;
+    height: 28px;
+    justify-content: space-between;
+  }
+  
+  .hotels-part {
+    margin: 8px -8px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    --right-chevron-pos: -20px;
+  
+  }
+  
+  .lists {
+    display: flex;
+  }
+  
+  .a-hotels {
+    background-color: #fff;
+    color: #1d1d1d;
+    height: 384px;
+    width: 272px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .img-part {
+    position: relative;
+    height: 184px;
+    width: 100%;
+  }
+  
+  .img-part img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .text-part {
+    padding: 16px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 184px)
+  }
+  
+  .name-hotel {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: ;
+    width: 100%;
+  }
+  
+  .stars-section {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    height: 18px;
+  
+  }
+  
+  .star-1 {
+    fill: #ff9800;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .rate {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .persent {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #44b50c;
+    color: #fff;
+    height: 24px;
+    border-radius: 14px;
+    padding: 0px 8px;
+  }
+  
+  .reviews {
+    color: #767676;
+    ;
+    font-size: 12px;
+  
+  }
+  
+  .gat-travel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-grow: 1;
+  
+  }
+  
+  .gat-travel div {
+    color: #44b50c;
+    font-size: 18px;
+    font-weight: 600;
+  
+  }
+  
+  .cairo-hotels {
+    background-color: #fff;
+    color: #1d1d1d;
+    height: 280px;
+    width: 272px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  .img-part-cairo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  
+  
+  .top-cities-hotels {
+    margin: 8px;
+  }
+  
+  .cities-header {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    height: 28px;
+    justify-content: space-between;
+    line-height: 28px;
+  
+  }
+  
+  .hotels {
+    display: flex;
+    margin: 0 -1px 0 0;
+    transition: transform .15s ease-out;
+  }
+  
+  .hotels-name {
+    display: flex;
+    margin: 0 -1px 0 0;
+    transition: transform .15s ease-out;
+  
+  }
+  
+  .first-pic {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, .1);
+    color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    width: 176px;
+    height: 240px;
+  }
+  
+  .first-pic img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .pic-name {
+  
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 16px 8px;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 48px 32px;
+  
+  }
+  
+  .all-list {
+    display: flex;
+    width: 100%;
+    max-width: var(--footer-max-width, 1136px);
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 48px 32px;
+  
+  }
+  
+  .all-list {
+    display: flex;
+    width: 100%;
+    max-width: 1136px;
+  }
+  
+  .footer-list {
+    width: 25%;
+  
+  }
+  
+  .list-header {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 24px;
+    display: block;
+  }
+  
+  .list-header {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 24px;
+    display: block;
+  }

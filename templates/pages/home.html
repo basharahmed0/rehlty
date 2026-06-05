@@ -1,0 +1,515 @@
+{% extends 'parts/base.html' %}
+{% load static %}
+
+  {% block home %}
+  <div class="app">
+
+    <!--Header-->
+    
+    </div>
+
+    <div class="body-part">
+      <div class="first-panar">
+        <div class="header-first-panar"> Popular Hotels in Cairo</div>
+        <div class="hotels-part">
+          <div class="outline-list">
+            <div class="lists">
+              <a class="a-hotels" href="{% url 'one.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/one.avif' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Four Seasons Cairo At Nile Plaza </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.7</div>
+                    <div class="reviews">4480 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'tow.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/tow.avif' %}" alt="imd/hotel-image-placeholder.webp">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Marriott Mena House, Cairo</div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.7</div>
+                    <div class="reviews">1418 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'three.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/three.avif' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">The St. Regis Cairo </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">9.1</div>
+                    <div class="reviews">2908 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'four.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/four.jpg' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Fairmont Nile City - Cairo </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.1</div>
+                    <div class="reviews">14969 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="first-panar">
+        <div class="header-first-panar"> Popular Hotels in Alexandria</div>
+        <div class="hotels-part">
+          <div class="outline-list">
+            <div class="lists">
+              <a class="a-hotels" href="{% url 'aone.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/four.jpg' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">SUNRISE Alex Avenue Hotel </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.5</div>
+                    <div class="reviews">5480 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'atow.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/one.avif' %}" alt="imd/hotel-image-placeholder.webp">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Steigenberger Cecil Hotel</div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.3</div>
+                    <div class="reviews">6418 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'athree.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/701104319.avif' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Romance Alexandria Hotel
+                </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">9.3</div>
+                    <div class="reviews">2908 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="{% url 'afour.html' %}">
+                <div class="img-part">
+                  <img src="{% static 'image/four.jpg' %}" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Hilton Alexandria Corniche </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.5</div>
+                    <div class="reviews">1499 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Get Travel</div>
+                  </div>
+
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- <div class="first-panar">
+        <div class="header-first-panar"> Popular Hotels in Cairo</div>
+        <div class="hotels-part">
+          <div class="outline-list">
+            <div class="lists">
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Highest Rated Hotels in Cairo </div>
+
+                  <div class="reviews">289 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699487517.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">The best of Fairmont Hotels</div>
+
+                  <div class="reviews">1 property</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699389029.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Most Recommended Downtown Cairo Hotels</div>
+
+                  <div class="reviews">258 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699425727.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Most Recommended Hostel / Backpacker in Cairo </div>
+
+                  <div class="reviews">91 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="699470866.avif" alt="hotels">
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div> -->
+
+      <div class="first-panar">
+
+        <div class="top-cities-hotels">
+          <div class="cities-header">Soon In REHLTY</div>
+          <div class="hotels">
+            <div class="hotels-name">
+              <a class="first-pic" href="Hurghada">
+                <img src="{% static 'image/HRG.jpg'%}">
+                <div class="pic-name">Hurghada</div>
+              </a>
+              <a class="first-pic" href="Sharm El SHeikh">
+                <img src="{% static 'image/SSH.jpg'%}">
+                <div class="pic-name">Sharm El SHeikh</div>
+              </a>
+              <a class="first-pic" href="Alexandria">
+                <img src="{% static 'image/HBE.jpg'%}">
+                <div class="pic-name">Alexandria</div>
+              </a>
+              <a class="first-pic" href="Cairo">
+                <img src="{% static 'image/CAI.jpg'%}">
+                <div class="pic-name">Cairo</div>
+              </a>
+              <a class="first-pic" href="Ain Sokhna">
+                <img src="{% static 'image/47682.jpg'%}">
+                <div class="pic-name">Ain Sokhna</div>
+              </a>
+              <a class="first-pic" href="Dahab">
+
+                <img src="{% static 'image/3714.jpg'%}">
+                <div class="pic-name">Dahab</div>
+
+              </a>
+            </div>
+
+
+
+          </div>
+              
+        </div>
+
+      </div>
+
+
+
+    </div>
+    {% endblock%}
+
+    
+    

@@ -1,0 +1,430 @@
+{% extends 'parts/base.html' %}
+
+  {% block home %}
+  <div class="app">
+
+    <!--Header-->
+    <div class="header">
+      <!-- <div class="part1">
+        <div class="navbar">
+          <a aria-label="Wego" class="logo-logo"></a>
+          <div class="header-content">
+            <div class="header-btn">
+              <button>EN</button>
+              <span>|</span>
+              <button>EGP</button>
+            </div>
+            <a href="#">Support</a>
+            <a href="#">My Trips</a>
+
+            <button class="header-login">Login</button>
+
+          </div>
+
+        </div>
+      </div> -->
+    
+      <!--header card -->
+      <!-- <div class="card">
+        <div class="uper-card">
+          <button>Hotels</button>
+        </div> -->
+        <!-- card content part-->
+        <!-- <div class="card-conent">
+          <p>Where do you want to stay?</p>
+
+          <div class="card-choose">
+            <div class="card-info">
+              <input type="text" id="distination" value="Cairo,Egypt" autocomplete="off" spellcheck="false" />
+              <label for="distination">Distination</label>
+            </div>
+
+            <div class="card-info">
+              <div class="check-in">
+                <input type="text" id="input-check-in" value="Today" />
+                <label for="input-check-in">Check In</label>
+              </div>
+              <div class="card-info">
+                <input type="text" id="input-chek-out" value="tomoro" />
+                <label for="input-chek-out">Check Out</label>
+              </div>
+            </div>
+
+            <div class="card-info">
+              <input type="text" id="input-guest" value="2 Adults in 1 Room" />
+              <label for="input-guest">Guests & Rooms</label>
+            </div>
+          </div>
+          <div class="card-serch">
+            <div class="left-ceck">
+              <input type="checkbox">
+              <label> Free cancellation</label>
+            </div>
+            <div class="right-search">
+              <button>Search</button>
+            </div>
+          </div>
+
+          <div class="card-last-part">
+            <p class="crad-p">Compare Wego vs. these sites:</p>
+            <div>
+              <input type="checkbox" name="" id="last-card">
+              <label for="last-card">Booking.com</label>
+            </div>
+          </div>
+
+        </div> -->
+
+      </div>
+    </div>
+
+    <div class="body-part">
+      <div class="first-panar">
+        <div class="header-first-panar"> Popular Hotels in Cairo</div>
+        <div class="hotels-part">
+          <div class="outline-list">
+            <div class="lists">
+              <a class="a-hotels" href="">
+                <div class="img-part">
+                  <img src="699470866.avif" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Four Seasons Cairo At Nile Plaza </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.7</div>
+                    <div class="reviews">4480 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Gat Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="">
+                <div class="img-part">
+                  <img src="imd/699487517.avif" alt="imd/hotel-image-placeholder.webp">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Marriott Mena House, Cairo</div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.7</div>
+                    <div class="reviews">1418 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Gat Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="">
+                <div class="img-part">
+                  <img src="imd/701104319.avif" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">The St. Regis Cairo </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">9.1</div>
+                    <div class="reviews">2908 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Gat Travel</div>
+                  </div>
+
+                </div>
+              </a>
+              <a class="a-hotels" href="">
+                <div class="img-part">
+                  <img src="imd/699389029.avif" alt="hotels">
+                </div>
+                <div class="text-part">
+                  <div class="name-hotel">Fairmont Nile City - Cairo </div>
+                  <div class="stars-section">
+                    <div class="satrs-5">
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                      <svg viewBox="0 0 24 24" class="star-1" data-testid="star">
+                        <path
+                          d="m12 17.27 4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                        </path>
+                      </svg>
+                    </div>
+
+                  </div>
+                  <div class="rate">
+                    <div class="persent">8.1</div>
+                    <div class="reviews">14969 reviews</div>
+                  </div>
+                  <div class="gat-travel">
+                    <div>Gat Travel</div>
+                  </div>
+
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- <div class="first-panar">
+        <div class="header-first-panar"> Popular Hotels in Cairo</div>
+        <div class="hotels-part">
+          <div class="outline-list">
+            <div class="lists">
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Highest Rated Hotels in Cairo </div>
+
+                  <div class="reviews">289 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699487517.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">The best of Fairmont Hotels</div>
+
+                  <div class="reviews">1 property</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699389029.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Most Recommended Downtown Cairo Hotels</div>
+
+                  <div class="reviews">258 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="imd/699425727.avif" alt="hotels">
+                </div>
+              </a>
+              <a class="cairo-hotels" href="">
+
+                <div class="text-part">
+                  <div class="name-hotel">Most Recommended Hostel / Backpacker in Cairo </div>
+
+                  <div class="reviews">91 properties</div>
+
+                </div>
+                <div class="img-part-cairo">
+                  <img src="699470866.avif" alt="hotels">
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div> -->
+
+      <div class="first-panar">
+
+        <div class="top-cities-hotels">
+          <div class="cities-header">Soon In REHLTY</div>
+          <div class="hotels">
+            <div class="hotels-name">
+              <a class="first-pic" href="Hurghada">
+                <img src="imd/HRG.jpg">
+                <div class="pic-name">Hurghada</div>
+              </a>
+              <a class="first-pic" href="Sharm El SHeikh">
+                <img src="imd/SSH.jpg">
+                <div class="pic-name">Sharm El SHeikh</div>
+              </a>
+              <a class="first-pic" href="Alexandria">
+                <img src="imd/HBE.jpg">
+                <div class="pic-name">Alexandria</div>
+              </a>
+              <a class="first-pic" href="Cairo">
+                <img src="imd/CAI.jpg">
+                <div class="pic-name">Cairo</div>
+              </a>
+              <a class="first-pic" href="Ain Sokhna">
+                <img src="imd/47682.jpg">
+                <div class="pic-name">Ain Sokhna</div>
+              </a>
+              <a class="first-pic" href="Dahab">
+
+                <img src="imd/3714.jpg">
+                <div class="pic-name">Dahab</div>
+
+              </a>
+            </div>
+
+
+
+          </div>
+              
+        </div>
+
+      </div>
+
+
+
+    </div>
+    {% endblock%}
+
+    
+    <!-- <footer>
+      <div class="all-list">
+        <div class="footer-list">
+          <div class="list-header">COMPANY</div>
+          <div class="links">
+            <a href="#">About Wego</a>
+            <a href="#">Press</a>
+            <a href="#">Career</a>
+            <a href="#">About Us</a>
+          </div>
+        </div>
+
+        <div class="footer-list">
+          <div class="list-header">LEARN MORE</div>
+          <div class="links">
+            <a href="#">Book on Wego</a>
+            <a href="#">Affiliats</a>
+            <a href="#">Advertise</a>
+            <a href="#">Hoteliers</a>
+            <a href="#">Data Privacy Policy </a>
+            <a href="#">Terms</a>
+          </div>
+
+        </div>
+        <div class="footer-list">
+          <div class="list-header">EXPLORE</div>
+          <div class="links">
+            <a href="#">Airport Directory</a>
+            <a href="#">Airlines Directory</a>
+            <a href="#">Flight Schedules</a>
+            <a href="#">Hotels Chains</a>
+          </div>
+        </div>
+        <div class="footer-list">
+          <div class="list-header">download</div>
+          <div class="links">
+            <a href="#">Wego App (ios)</a>
+            <a href="#">Wego App (Android)</a>
+
+          </div>
+        </div>
+
+      </div> -->

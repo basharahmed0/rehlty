@@ -1,0 +1,89 @@
+.part1{
+    background-color: #fff;
+    align-items: center;
+      display: flex;
+      height: 72px;
+      justify-content: center;
+      padding: 0 32px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 72px;
+    padding: 0 32px;
+    color: #1d1d1d;
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2);
+    position: fixed;
+    max-width: 1134px;
+  }
+  /*.navbar .logo-logo {
+    background-image: url(https://assets.wego.com/image/sprite/c_pad,f_auto,q_auto:best,h_80,w_200/v1642649139/roxana-wego-logo);
+      background-repeat: no-repeat;
+      background-size: 100px 81px;
+      display: block;
+      height: 40px;
+      width: 100px;
+  }*/
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand img {
+    width: 40px;
+}
+  
+  .header-content {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .header-btn {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 16PX;
+  }
+  
+  .header-btn button {
+    background-color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  
+  
+  }
+  
+  .header_nav a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1d1d1d;
+    margin: 0;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .header-login {
+    border-radius: 100px;
+    border-width: 1px;
+    height: 32px;
+    padding: 9px 16px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+  
+  }

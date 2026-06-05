@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Details
+    </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/details.css' %}">
+   
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        
+        <div class="header">
+            <div class="navbar">
+                <div class="brand">
+                    <h3>Rehlty</h3>
+                    <img src="imagee/location.webp" alt="">
+                </div>
+
+                <div class="header-content">
+                    <div class="header-btn">
+                        <button>EN</button>
+                        <span>|</span>
+                        <button>AR</button>
+                    </div>
+                    <a href="#">Support</a>
+                    <a href="#">My Trips</a>
+
+                    <a href="{% url 'signin'%}"><button
+                            class="header-login">Logout</button></a>
+
+                </div>
+
+            
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <p>Romance Alexandria Hotel</p>
+
+
+
+        <div class="price">
+            <div class="pri">
+                <span class="EGP">EGP</span>
+                <span class="pr">35,000</span>
+            </div>
+            <a class="book" href="#">Book Now</a>
+
+
+        </div>
+
+    </div>
+    <div class="location">
+
+
+        <div class="icon"><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+        </div>
+
+        <p>303 Avenue El-Gueish, Alexandria 5452021 Egypt<a href="#">see location</a></p>
+
+    </div>
+
+    <div class="image">
+
+        <table>
+            <tr>
+                
+                <td><img src="{% static 'image/IMG-20250503-WA0025.jpg'%}" alt=""></td>
+                <td> <img src="{% static 'image/IMG-20250503-WA0005.jpg'%}" alt=""></td>
+            </tr>
+
+            <tr>
+                <td><img src="{% static 'image/IMG-20250503-WA0031.jpg'%}" alt=""></td>
+                <td><img src="{% static 'image/IMG-20250503-WA0029.jpg'%}" img alt=""></td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    
+
+
+    </div>
+    <div class="cont">
+        <div>
+            <p>Luxurious comfort with well-maintained rooms and multiple pools. Offers VIP upgrades, executive lounge, and a la carte restaurants. Known for lively pool bar, diverse dining options, and themed nights. Exceptional service throughout.</p>
+        </div>
+    </div>
+    </div>
+    <div class="rate">
+        <ul>
+            <li class="feedback">9.4</li>
+            <li class="ratee">Excellent</li>
+            <li class="reviews">11007 reviews</li>
+            <li>
+                <a href="#">view reviews ></a>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <div class="about">
+
+        <div class="popular">
+            <h2 class="pop"> popular amenities</h2>
+        </div>
+
+
+        <div class="amenities">
+
+            <img src="{% static 'image/spa.avif'%}" alt="spa">
+
+            <img src="{% static 'image/pool.jpg'%}" alt="pool">
+
+
+            <img src="{% static 'image/resturant.jpg'%}" alt="restaurant">
+
+
+        </div>
+        <div class="cott">
+            <h4 class="spa">spa </h4>
+            </h4>
+            <h4 class="pool">pool</h4>
+            <h4 class="restaurant">restaurant</h4>
+        </div>
+
+
+
+
+
+
+        <div class="somedetails">
+            <div class="spadetails">
+                <h5> <i class="fa-solid fa-martini-glass"></i> Bar</h5>
+                <h5> <i class="fa-solid fa-dumbbell"></i> Gym</h5>
+
+            </div>
+
+            <div class="pooldetails">
+                <h5> <i class="fa-solid fa-door-open"></i> Connecting rooms available</h5>
+                <h5> <i class="fa-solid fa-fan"></i> Air conditioning</h5>
+
+
+            </div>
+            <div class="restaurantdetails">
+                <h5><i class="fa-solid fa-square-parking"></i> Parking available</h5>
+
+
+                <h5><i class="fa-solid fa-wifi"></i> Free WiFi</h5>
+
+            </div>
+        </div>
+        <br>
+
+        <div class="rooms">
+            <h2>Room amenities</h2>
+            <div class="home">
+                <h3>Home comforth</h3>
+                <p>Climate-controlled air conditioning and heating
+                </p>
+
+
+                <p>Minibar</p>
+
+
+                <p>Espresso maker</p>
+
+
+                <p>Electric kettle</p>
+
+
+                <p>Bathrobes and slippers</p>
+
+
+                <p>Children's slippers</p>
+
+
+                <p>Iron/ironing board</p>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    
+<div class="detailss">
+    <div class="header-details">details</div>
+    <div class="body-details">
+        <div class="upper-part">
+        <div class="left-part">
+            <div class="description">
+                This 4 star hotel is located in the elegant Saba Pasha district, between the Montaza Palace and the centre of the city,. Romance Alexandria Hotel offers 45 suites and 36 rooms all with panoramic sea views, of which most have been recently renovated. The hotel features gourmet restaurants, a coffee shop, a bar and a nightclub in addition to a fully renovated multi-function ballroom and private parking, wifi free with high speed , New SPA& GYM facilities & free shuttle bus service for all guest in house .
+             </div>
+        </div>
+        <div class="right-part">
+<div class="address">
+    <div class="address-head">
+        <div class="address-title">Address</div>
+    </div>
+    <p>303 Avenue El-Gueish, Alexandria 5452021 Egypt</p>
+</div>
+<div class="contact">
+<div class="contact-head">
+    <div class="contact-title">contact</div>
+    <p> 777-446-6677</p>
+</div>
+</div>
+<div class="check-in-time">
+    <div class="check-in-time-head">
+        <div class="check-in-time-title">check-in-time</div>
+        <p>04:00 PM</p>
+</div>
+<div class="check-out-time"></div>
+    <div class="check-out-time-head">
+        <div class="check-out-time-title">check-out-time</div>
+        <p>11:00 PM</p>
+</div>
+   </div>
+    </div>
+   
+    </div>
+  
+</div>
+</div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/b898ef8082.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

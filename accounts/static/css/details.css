@@ -1,0 +1,440 @@
+.header {
+    background-color: #fff;
+  padding: 16px 32px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  max-width: 1136px;
+  margin: auto;
+  margin-top: 16px
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand img {
+    width: 40px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.header-btn {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1d1d1d;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header-btn button {
+    padding: 8px 16px;
+  background-color:  #fff;
+  ;
+  color: #1d1d1d;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+
+
+}
+
+
+.header a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1d1d1d;
+    margin: 0;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.header-login {
+    padding: 8px 16px;
+    background-color: #44b50c;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.header a:hover {
+    color: #159a11;
+}
+
+
+.header-login:hover {
+    color: #9fe59f;
+}
+
+.content {
+    max-width: 1136px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pri {
+    padding-right: 20px;
+}
+
+.EGP {
+    padding-right: 5px;
+}
+
+.pr {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1b969a;
+}
+
+.book {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #1f9c1f;
+
+
+}
+
+.book:hover {
+    background-color: #34b634;
+    color: white;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.location {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: 14px;
+    max-width: 1136px;
+    margin: auto;
+    margin-bottom: 24px;
+
+
+}
+
+
+.location .icon {
+    
+    color: rgb(255, 180, 0);
+}
+.image{
+  max-width: 1136px;
+  margin: auto; 
+}
+
+.image img {
+    height: 250px;
+    width: 540px;
+}
+
+.location a {
+    color: #1acf1a;
+}
+
+
+
+img.rows {
+    width: 420px;
+    height: 510px;
+}
+
+.cont {
+    max-width: 700px;
+    padding: 30px;
+    font-size: 18px;
+    color: #0e3f70;
+    background-color: #f4f8fc;
+    text-align: center;
+    display: flex;
+    max-width: 1136px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+
+.rate ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.rate a {
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 4px;
+
+}
+
+.feedback {
+    width: 10%;
+
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    border: 3px solid #1acf1a;
+    border-radius: 15px;
+    background-color: #1acf1a;
+}
+
+.ratee {
+    font-size: 20px;
+    color: #1acf1a;
+}
+
+.reviews {
+    font-size: 20px;
+    color: #1d1d1da6;
+}
+
+
+
+.popular{
+    max-width: 1136px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+
+.details {
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+
+.details a {
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 4px;
+}
+
+.details a:hover {
+    color: #1acf1a;
+    border-bottom: 0.5px solid #44b50c;
+
+}
+
+.details a.active {
+    color: #44b50c;
+    border-bottom: 0.5px solid #44b50c;
+}
+
+.border {
+    border-bottom: 1px solid #0000009b;
+    padding-left: 30px;
+}
+
+
+.amenities {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+   
+}
+
+.amenities img {
+    width: 160px;
+    border-radius: 12px;
+}
+
+.amenities h3 {
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.popular{
+    display: center;
+    justify-content: center;
+}
+
+.cott {
+    display: flex;
+  justify-content: center;
+  gap: 130px;
+  font-size: 18px;
+  color: #003366;
+}
+
+.spa {
+    padding-left: 90px;
+}
+
+.restaurant {
+    padding-right: 80px;
+}
+
+.pool {
+    padding-left: 30px;
+}
+
+.somedetails {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 24px;
+    margin: 16px auto;
+    border-radius: 8px;
+    max-width: 1136px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.restaurantdetails {
+    padding-right: 90px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.spadetails {
+    padding-left: 15px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.pooldetails {
+    padding-left: 15px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.rooms {
+    max-width: 1136px;
+    margin: auto;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.home {
+    padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.detailss {
+    max-width: 1140px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .header-details {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  .body-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .upper-part {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left-part {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .description {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+  }
+  
+  .right-part {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .right-part > div {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .right-part .address-title,
+  .right-part .contact-title,
+  .right-part .check-in-time-title,
+  .right-part .check-out-time-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  .right-part  {
+    font-size: 14px;
+    margin: 0;
+    color: #555;
+  }

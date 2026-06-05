@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sign Up</title>
+  {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/signup.css' %}">
+  
+ 
+</head>
+
+<body>
+
+  <div class="main">
+
+    <div class="form">
+      <form action="" method="post">
+        {% csrf_token %}
+        <h2>Sign Up</h2>
+       
+  
+        <input type="text" name="name" placeholder="Name* ">
+        
+        <input type="email" name="emaill" placeholder="Email* ">
+        <input type="password" name="passwordd" placeholder="Password* "minlength = "8"required>
+        
+        <button class="btx"><a href="{% url 'signin' %}">login</a></button></a>
+        <br>
+        <div class="log">
+        <p > have account? <a href="{% url 'signin'%}">login here</a> </p></div>
+
+
+
+
+
+      </form>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="https://kit.fontawesome.com/b898ef8082.js" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>
